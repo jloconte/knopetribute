@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Maven+Pro');
+
+body {
+  background: url("https://static.vecteezy.com/system/resources/previews/000/104/791/original/retro-patriotic-sunburst-vector-background.jpg");
+  margin: 0 auto;
+  font-family: 'Maven Pro', sans-serif;
+  padding: 50px;
+  color: #000080;
+
+}
+
+img {
+  width: 100%;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  border: 2px solid #FFFAF0;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+}
+
+#top-img {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: "baloo", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: #000080;
+  text-shadow: 5px 5px 0 #B22222;
+}
+
+#top {
+  padding-bottom: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 10px double #000080;
+  margin-bottom: 50px
+}
+
+#top p {
+  font-size: 28px;
+  color: #B22222;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 #B22222;
+}
+
+.jumbotron {
+   background: rgba(213, 163, 86, 0.5); 
+}
+
+#bottom {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 10px double #000080;
+}
+
+#bottom h3 {
+  font-family: "Baloo", sans-serif;
+  text-align: center;
+  color: #000080;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li span {
+  font-style: italic;
+  color: #B22222;
+  font-weight: 900;
+}
+
+#quote {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 50px;
+  
+}
+
+blockquote {
+  border: none;
+  max-width: 400px;
+  margin: 40px -20px 0;
+  font-size: 25px;
+  position: relative;
+}
+
+blockquote:before {
+  content: '"';
+  position: relative;
+  top: 0;
+  font-size: 50px;
+  font-style: italic;
+  color: #D82E2E
+}
+
+blockquote:after {
+  content: '"';
+  font-size: 50px;
+  font-style: italic;
+  line-height: 0;
+  position: relative;
+  top: 15px;
+  left: -10px;
+  color: #D82E2E
+}
+
+blockquote p {
+  display: inline
+}
+
+#gif {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+  margin-bottom: 50px;
+}
